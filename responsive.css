@@ -1,0 +1,101 @@
+/*==========  Non-Mobile First Method  ==========*/
+ 
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1400px) {
+ 	
+	.navbar{
+		padding: 15px 0;
+	}
+	.app-details .btn-lg{
+		width: 220px;
+	}
+	#man-list h4{
+		font-size: 24px;
+	}
+ 	.share-area ul li{
+		padding: 0 20px;
+	}
+	.app-details2 p, #man-list span ,.footer {
+		font-size: 18px;
+	}
+	.email-area h2{
+		font-size: 30px;
+	}	
+	.email-area p{
+		font-size: 22px;
+	}
+	
+	.email-area .btn-lg{
+		height: 60px; 
+	}
+ 	#email1{
+		height: 60px;
+		width: 78%;
+	}
+	
+}
+ 
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+ 	
+}
+ 
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+ 	.app-details{
+ 		text-align: center;
+ 	}
+ 	.app-details img{
+ 		margin-left: 30%;
+ 	}
+ 	.app-details2{
+		padding-top: 50px;
+	}
+	.app-details .btn-lg{
+		width: 195px;
+	}
+}
+ 
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+    
+    .navbar{
+		padding:0;
+	}
+    .app-details img{
+ 		margin-left: 20%;
+ 	}
+    .app-details .btn-lg{
+		width: 115px;
+	}
+    #man-list h4{
+		font-size: 20px;
+	}
+    .share-area i{
+		font-size: 20px;
+	}
+	.share-area ul li{
+		padding: 0 10px;
+	}
+	.app-details2 p, #man-list span ,.footer {
+		font-size: 15px;
+	}
+	.email-area h2{
+		font-size: 25px;
+	}	
+	.email-area p{
+		font-size: 18px;
+	}
+	#email1{
+		height: 40px;
+		width: 58%;
+	}
+	.email-area .btn-lg{
+		height: 40px; 
+	}
+}
+ 
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+   
+}

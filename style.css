@@ -1,0 +1,190 @@
+
+
+body{
+	font-family: 'Myriad Pro';
+}
+ul{
+	margin: 0;
+}
+.row-nomargin{
+	margin: 0;
+}
+.col-nopadding  {   padding: 0;  }
+
+
+/*==============header=================*/
+.navbar{
+	/*padding: 15px 0;*/
+	margin-bottom: 0;
+	border-radius: 0;
+}
+.navbar-default,.article1{
+	border: 0;
+}
+#value-nav> li { padding: 15px;}
+#value-nav> li> a, #value-nav> li> a:hover{
+	color: #fff;
+	padding: 0;
+}
+.navbar-brand> img{
+	margin-top: -14%;
+}
+.navbar-brand { padding: 0;}
+
+
+/*===================common-padding====================*/
+.slider1,.article1,.slider2,.slider3,.email-area,.share-area{
+	padding: 80px 0;
+}
+
+
+/*==================slider1====================*/
+.app-details{ padding: 50px 0;}
+.app-details> p, .icon-list{ padding: 40px 0;}
+.app-details>.media { padding: 10px 0;}
+.app-details>.media> h1{
+	padding-top: 18px;
+	padding-left: 5px;
+	font-size: 50px;
+}
+/*.app-details img{ display: block;}*/
+.app-details> p{ font-size: 30px; font-family: 'Myriad Pro'}
+.app-details> p, .app-details>.media>h1 { color: #b9b9b9; }
+.app-details .btn-lg{
+	padding: 14px 0px;
+	border-radius: 50px;
+	border : 2px solid #b9b9b9;
+	background: #b9b9b9;
+	color:#fff;
+	margin-right: 18px;
+}
+.app-details .btn-lg:hover{
+	border-color: #98d361;
+	background: #fff;
+	color:#98d361;
+}
+.app-details i{
+	color: #98d361;
+	font-size: 30px;
+}
+
+.icon-list li{
+	padding: 0 22px;
+}
+
+
+/*======================article-area=======================*/
+.article1{ color:#fff;}
+
+.article1 p{font-size: 20px;}
+.article1 h2 {font-size: 34px;}
+.article1 h3 {font-size: 28px;}
+
+
+.slider2,.email-area{ background: #f8f8f9;}/*================common-background==============*/
+
+
+/*=================carousel-fixing====================*/
+.carousel-indicators>li , .carousel-indicators .active{
+    width: 16px;
+    height: 16px;
+    border: 2px solid #98d361;
+    margin: 1px;
+}
+
+.carousel-indicators .active,.email-area .btn-lg ,.navbar-default,.article1{
+	background: #98d361;
+}
+.carousel-inner{
+	max-width: 310px;
+}
+.carousel-indicators {
+	bottom:-60px;
+	margin-left: -30%;
+}
+
+
+.my-container{
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.content{
+	padding-top: 80px;
+}
+
+/*====================slider2====================*/
+.app-details2 h4{
+	font-size: 20px;
+	color: #98d361;
+}
+.app-details2 h1,.app-details2 p ,#man-list span{
+	color: #b9b9b9;
+}
+.app-details2 h1{
+	font-size: 36px;
+}
+
+
+
+/*==================slider2-content==================*/
+.media-list li{
+	padding: 40px 0 0;
+	margin-top: 0;
+}
+
+/*=======================slider3====================*/
+.quote em{
+	color: #b9b9b9;
+	font-size: 24px;
+	display: block;
+}
+.quote img{
+	margin-bottom: 30px;
+}
+#man-list li{
+	padding: 60px 32px 0;
+}
+.img-thumbnail{
+	border-color:#98d361;
+}
+#man-list h4{
+	color: #98d361;
+}
+.man-info{
+	padding: 10px;
+}
+
+/*====================footer===================*/
+.email-area h2{
+	color:  #b9b9b9;
+}
+.email-area p{
+	color: #686868;
+}
+.share-area i{
+	color:#b9b9b9;
+}
+
+.footer{
+	padding-top: 30px;
+}
+.footer,.footer a {
+	color: #b9b9b9 ;
+	text-decoration: none;
+}
+#email1{
+	border-radius: 50px 0 0 50px; 
+	margin-left: 5%; 
+	text-indent: 18px;
+}
+.form { position: relative;}
+.email-area form{ margin-top: 60px;}
+.email-area .btn-lg{
+	width: 145px; 
+	border-radius: 0 50px 50px 0;  
+	border: 0; color: #fff; 
+	position:absolute;
+	bottom: 0; 
+	right: 4%;
+}
